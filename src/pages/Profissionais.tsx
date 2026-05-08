@@ -35,7 +35,7 @@ export const Profissionais: React.FC = () => {
               {/* Info Column */}
               <div className="md:col-span-2 space-y-8">
                 <div>
-                  <h1 className="text-4xl md:text-5xl font-serif mb-2">{drAlfeu.name}</h1>
+                  <h1 className="text-5xl md:text-6xl font-serif mb-2 text-primary">{drAlfeu.name}</h1>
                   <p className="text-xl text-accent font-black mb-6 uppercase tracking-tight">{drAlfeu.role}</p>
                   <div className="prose prose-lg max-w-none text-foreground leading-relaxed">
                     <p className="font-bold text-primary/90 text-xl mb-6">

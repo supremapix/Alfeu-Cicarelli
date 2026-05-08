@@ -42,7 +42,7 @@ export const ServiceTemplate: React.FC<ServiceTemplateProps> = ({ title, subtitl
               </span>
               Direito da Saúde • Atendimento 24h
             </div>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-[1.1] tracking-tighter text-white">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 leading-[1.1] tracking-tight text-white">
               {title}
             </h1>
             <p className="text-2xl md:text-3xl text-white/90 font-light mb-12 leading-relaxed max-w-3xl">

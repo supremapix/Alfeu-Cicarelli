@@ -91,7 +91,7 @@ export const SPLocationPage: React.FC = () => {
                   <div className="inline-block bg-accent rounded-full mb-8 px-8 py-3 text-white text-xs font-black uppercase tracking-[0.3em] shadow-lg">
                     Direito da Saúde • Atendimento {locName}
                   </div>
-                  <h1 className="text-5xl md:text-7xl lg:text-9xl font-serif text-white mb-8 leading-[0.95] tracking-tighter">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8 leading-[1.1] tracking-tighter">
                     {location.primaryKeyword} <br />
                     <span className="text-accent italic font-light">{prepName}</span>
                   </h1>

@@ -29,7 +29,7 @@ export const FAQ: React.FC = () => {
              <div className="h-16 w-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <HelpCircle className="h-8 w-8 text-accent" />
              </div>
-            <h1 className="text-4xl md:text-5xl font-serif mb-4">Dúvidas Frequentes</h1>
+            <h1 className="text-5xl md:text-6xl font-serif mb-4 text-primary">Dúvidas Frequentes</h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Tudo o que você precisa saber sobre seus direitos contra os abusos dos planos de saúde.</p>
           </div>
 

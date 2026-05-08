@@ -22,7 +22,7 @@ export const AreasAtuacao: React.FC = () => {
       <div className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-serif mb-4">Nossas Áreas de Atuação</h1>
+            <h1 className="text-5xl md:text-6xl font-serif mb-4 text-primary font-bold">Nossas Áreas de Atuação</h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Especialidade técnica focada exclusivamente nos direitos fundamentais dos pacientes.</p>
           </div>
 

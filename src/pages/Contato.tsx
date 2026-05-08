@@ -16,7 +16,7 @@ export const Contato: React.FC = () => {
       <div className="py-20 min-h-screen">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-serif mb-4">
+            <h1 className="text-5xl md:text-6xl font-serif mb-4 text-primary">
               Entre em Contato
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">

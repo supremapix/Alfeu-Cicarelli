@@ -26,7 +26,7 @@ export const LocationPage: React.FC = () => {
             <div className="inline-block px-6 py-2 rounded-full bg-accent text-white text-xs font-black uppercase tracking-[0.4em] mb-8 shadow-xl">
               Atendimento Regional {location.name}
             </div>
-            <h1 className="text-6xl md:text-8xl font-serif mb-8 text-white tracking-tighter leading-[0.95] text-white">
+            <h1 className="text-4xl md:text-6xl font-serif mb-8 text-white tracking-tighter leading-[1.1] text-white">
               Advogado de Plano de Saúde em <br />
               <span className="text-accent italic font-light">{location.name}</span>
             </h1>

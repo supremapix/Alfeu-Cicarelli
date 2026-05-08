@@ -55,7 +55,7 @@ export const HomePage: React.FC = () => {
               </span>
               Especialista em Direito da Saúde • São Paulo
             </div>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white leading-[1.05] mb-8 tracking-tighter">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-white leading-[1.1] mb-8 tracking-tighter">
               Sua saúde não pode <br />
               <span className="text-accent italic font-light">esperar a burocracia.</span>
             </h1>
