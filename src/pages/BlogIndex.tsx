@@ -3,7 +3,7 @@ import { SEO } from '@/components/SEO';
 import { blogArticles } from '@/data/blogArticles';
 import { categories } from '@/data/categories';
 import { Link } from 'react-router-dom';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/badge';
 import { Clock, User, ArrowRight } from 'lucide-react';
 

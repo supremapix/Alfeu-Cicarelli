@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { faqs } from '@/data/blogArticlesFAQ';
 import { Button } from '@/components/ui/button';
 import { MessageCircle, HelpCircle, Search } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { Input } from '@/components/ui/input';
 
 export const FAQ: React.FC = () => {

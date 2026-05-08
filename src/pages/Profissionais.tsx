@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { authors } from '@/data/authors';
 import { SEO } from '@/components/SEO';
 import { Instagram, Linkedin, Mail } from 'lucide-react';
