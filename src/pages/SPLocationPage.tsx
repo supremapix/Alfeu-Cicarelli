@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { allSPLocations } from '@/data/sp-locations';
 import { SEO } from '@/components/SEO';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { motion } from 'framer-motion';
 import { 

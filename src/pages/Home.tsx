@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 import { useTypewriter } from '@/hooks/use-typewriter';
 import { Link } from 'react-router-dom';
 import { SEO } from '@/components/SEO';
-import { Card, CardContent } from '@/components/ui/Card';
-import { Marquee } from '@/components/ui/Marquee';
+import { Card, CardContent } from '@/components/ui/card';
+import { Marquee } from '@/components/ui/marquee';
 import { spCities, spNeighborhoods } from '@/data/sp-locations';
 
 const areas = [

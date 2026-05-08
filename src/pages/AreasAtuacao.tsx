@@ -4,7 +4,7 @@ import { Shield, FileText, Clock, Gavel, Home as HomeIcon, Pill, MessageCircle, 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { SEO } from '@/components/SEO';
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/card';
 
 const areas = [
   { icon: Shield, title: 'Negativa de Cobertura', desc: 'Ações imediatas para liberação de cirurgias, exames complexos, próteses e stents negados abusivamente.' },
