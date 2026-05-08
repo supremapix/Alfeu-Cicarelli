@@ -38,7 +38,7 @@ export const HomePage: React.FC = () => {
             alt="Law Firm Background" 
             className="w-full h-full object-cover object-center brightness-[0.5] grayscale-[20%]"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent opacity-90" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent" />
         </div>
 
         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -55,7 +55,7 @@ export const HomePage: React.FC = () => {
               </span>
               Especialista em Direito da Saúde • São Paulo
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-white leading-[1.1] mb-8 tracking-tighter">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif text-white leading-tight mb-8 tracking-tighter drop-shadow-2xl">
               Sua saúde não pode <br />
               <span className="text-accent italic font-light">esperar a burocracia.</span>
             </h1>
@@ -63,7 +63,7 @@ export const HomePage: React.FC = () => {
               {typewriterText} <span className="animate-pulse text-accent">|</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
-              <Button asChild size="lg" className="h-20 px-10 text-2xl bg-accent hover:bg-accent/90 text-accent-foreground font-black shadow-[0_20px_50px_-15px_rgba(var(--accent),0.5)] transition-all hover:scale-105 active:scale-95">
+              <Button asChild size="lg" className="h-20 px-10 text-2xl bg-accent hover:bg-accent/90 text-accent-foreground font-black shadow-2xl transition-all hover:scale-105 active:scale-95 focus:ring-4 focus:ring-accent/20">
                 <a href="https://wa.me/5541999580015">
                   <MessageCircle className="mr-3 h-8 w-8" />
                   Consulta Gratuita

@@ -76,8 +76,9 @@ export const SPLocationPage: React.FC = () => {
       {/* Hero Section - Optimized for Conversion */}
       <section className="relative pt-32 pb-40 overflow-hidden bg-primary flex items-center">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/50 to-primary" />
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/80 to-primary" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent" />
         </div>
         <div className="container relative z-10 mx-auto px-4">
           <div className="max-w-5xl mx-auto">
@@ -91,7 +92,7 @@ export const SPLocationPage: React.FC = () => {
                   <div className="inline-block bg-accent rounded-full mb-8 px-8 py-3 text-white text-xs font-black uppercase tracking-[0.3em] shadow-lg">
                     Direito da Saúde • Atendimento {locName}
                   </div>
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-8 leading-[1.1] tracking-tighter">
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-8 leading-tight tracking-tighter drop-shadow-2xl">
                     {location.primaryKeyword} <br />
                     <span className="text-accent italic font-light">{prepName}</span>
                   </h1>
@@ -99,7 +100,7 @@ export const SPLocationPage: React.FC = () => {
                     O <strong>Cicarelli Advogados</strong> é especialista em <span className="text-accent font-black underline decoration-accent/30 underline-offset-8">liminares contra planos de saúde</span>. Protegemos pacientes da <strong>{locName}</strong> com agilidade e autoridade jurídica reconhecida.
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-6">
-                    <Button asChild size="lg" className="h-20 px-12 text-2xl bg-accent hover:bg-accent/90 text-accent-foreground font-black shadow-[0_20px_50px_-15px_rgba(var(--accent),0.4)] transition-all hover:scale-105 active:scale-95">
+                    <Button asChild size="lg" className="h-20 px-12 text-2xl bg-accent hover:bg-accent/90 text-accent-foreground font-black shadow-2xl transition-all hover:scale-105 active:scale-95 focus:ring-4 focus:ring-accent/20">
                       <a href="https://wa.me/5541999580015">
                         <MessageCircle className="mr-3 h-8 w-8" />
                         Consulta Gratuita

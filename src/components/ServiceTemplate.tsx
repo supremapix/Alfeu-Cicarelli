@@ -25,9 +25,9 @@ export const ServiceTemplate: React.FC<ServiceTemplateProps> = ({ title, subtitl
       {/* Hero Section */}
       <section className="relative py-28 bg-primary overflow-hidden items-center justify-center flex">
         <div className="absolute inset-0">
-          <img src={image} alt={title} className="w-full h-full object-cover opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
+          <img src={image} alt={title} className="w-full h-full object-cover opacity-30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div 
@@ -42,14 +42,14 @@ export const ServiceTemplate: React.FC<ServiceTemplateProps> = ({ title, subtitl
               </span>
               Direito da Saúde • Atendimento 24h
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 leading-[1.1] tracking-tight text-white">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-serif font-bold mb-8 leading-tight tracking-tight text-white drop-shadow-2xl">
               {title}
             </h1>
             <p className="text-2xl md:text-3xl text-white/90 font-light mb-12 leading-relaxed max-w-3xl">
               {subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-black h-20 px-10 text-xl shadow-[0_0_30px_-5px_rgba(var(--accent),0.4)]">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-black h-20 px-10 text-xl shadow-2xl transition-all hover:scale-105 active:scale-95 focus:ring-4 focus:ring-accent/20">
                 <a href={whatsappUrl} className="flex items-center gap-3">
                   <MessageCircle size={28} />
                   Falar com Especialista

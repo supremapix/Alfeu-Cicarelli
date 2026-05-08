@@ -19,14 +19,15 @@ export const LocationPage: React.FC = () => {
       />
       <div className="py-20">
         <section className="bg-primary text-primary-foreground py-32 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10 blur-sm pointer-events-none">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--accent)_0%,_transparent_70%)] opacity-20" />
+          <div className="absolute inset-0 opacity-20 pointer-events-none">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--accent)_0%,_transparent_70%)] opacity-30" />
+            <div className="absolute inset-0 bg-primary/40 backdrop-blur-[2px]" />
           </div>
           <div className="container mx-auto max-w-4xl text-center relative z-10">
             <div className="inline-block px-6 py-2 rounded-full bg-accent text-white text-xs font-black uppercase tracking-[0.4em] mb-8 shadow-xl">
               Atendimento Regional {location.name}
             </div>
-            <h1 className="text-4xl md:text-6xl font-serif mb-8 text-white tracking-tighter leading-[1.1] text-white">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif mb-8 text-white tracking-tighter leading-tight drop-shadow-2xl">
               Advogado de Plano de Saúde em <br />
               <span className="text-accent italic font-light">{location.name}</span>
             </h1>
