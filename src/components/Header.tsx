@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
           {/* Mobile Menu - Accessibility for seniors */}
           <div className="xl:hidden">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
+              <SheetTrigger asChild nativeButton={true}>
                 <Button variant="ghost" size="icon" className="h-12 w-12 border-2 border-muted hover:bg-muted">
                   <Menu className="h-8 w-8 text-primary" />
                   <span className="sr-only">Abrir menu</span>
