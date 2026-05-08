@@ -33,19 +33,19 @@ export const ServiceTemplate: React.FC<ServiceTemplateProps> = ({ title, subtitl
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            className="max-w-3xl text-white"
+            className="max-w-4xl text-white"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 border border-accent/30 text-accent font-bold text-xs uppercase tracking-widest mb-6">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-white font-black text-xs uppercase tracking-[0.2em] mb-8 shadow-lg">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
               </span>
               Direito da Saúde • Atendimento 24h
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-[1.1] tracking-tighter text-white">
               {title}
             </h1>
-            <p className="text-xl md:text-2xl text-white font-light mb-10 leading-relaxed max-w-2xl">
+            <p className="text-2xl md:text-3xl text-white/90 font-light mb-12 leading-relaxed max-w-3xl">
               {subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

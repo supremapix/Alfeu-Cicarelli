@@ -23,14 +23,14 @@ export const LocationPage: React.FC = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--accent)_0%,_transparent_70%)] opacity-20" />
           </div>
           <div className="container mx-auto max-w-4xl text-center relative z-10">
-            <div className="inline-block px-4 py-1 rounded-full bg-accent text-accent-foreground text-xs font-black uppercase tracking-widest mb-8">
+            <div className="inline-block px-6 py-2 rounded-full bg-accent text-white text-xs font-black uppercase tracking-[0.4em] mb-8 shadow-xl">
               Atendimento Regional {location.name}
             </div>
-            <h1 className="text-5xl md:text-7xl font-serif mb-8 text-white tracking-tighter leading-tight">
+            <h1 className="text-6xl md:text-8xl font-serif mb-8 text-white tracking-tighter leading-[0.95] text-white">
               Advogado de Plano de Saúde em <br />
               <span className="text-accent italic font-light">{location.name}</span>
             </h1>
-            <p className="text-xl md:text-2xl text-white font-medium max-w-2xl mx-auto leading-relaxed">
+            <p className="text-2xl md:text-3xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
               Atendemos toda a região de <strong>{location.name}</strong> com foco total em garantir o seu tratamento médico imediato.
             </p>
             <div className="mt-12 flex flex-wrap justify-center gap-6">

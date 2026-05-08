@@ -88,15 +88,15 @@ export const SPLocationPage: React.FC = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <div className="inline-block bg-accent/20 border border-accent/40 rounded-full mb-8 px-6 py-2 text-accent text-sm font-black uppercase tracking-[0.2em]">
-                    Direito da Saúde - Atendimento {locName}
+                  <div className="inline-block bg-accent rounded-full mb-8 px-8 py-3 text-white text-xs font-black uppercase tracking-[0.3em] shadow-lg">
+                    Direito da Saúde • Atendimento {locName}
                   </div>
-                  <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-8 leading-[1.05] tracking-tighter">
+                  <h1 className="text-5xl md:text-7xl lg:text-9xl font-serif text-white mb-8 leading-[0.95] tracking-tighter">
                     {location.primaryKeyword} <br />
-                    <span className="text-accent italic font-light font-serif">{prepName}</span>
+                    <span className="text-accent italic font-light">{prepName}</span>
                   </h1>
-                  <p className="text-xl md:text-2xl text-white font-light mb-12 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                    O <strong>Cicarelli Advogados</strong> é especialista em <span className="text-accent font-black">liminares contra planos de saúde</span>. Protegemos pacientes da <strong>{locName}</strong> com agilidade e autoridade jurídica reconhecida.
+                  <p className="text-2xl md:text-3xl text-white font-light mb-12 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    O <strong>Cicarelli Advogados</strong> é especialista em <span className="text-accent font-black underline decoration-accent/30 underline-offset-8">liminares contra planos de saúde</span>. Protegemos pacientes da <strong>{locName}</strong> com agilidade e autoridade jurídica reconhecida.
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-6">
                     <Button asChild size="lg" className="h-20 px-12 text-2xl bg-accent hover:bg-accent/90 text-accent-foreground font-black shadow-[0_20px_50px_-15px_rgba(var(--accent),0.4)] transition-all hover:scale-105 active:scale-95">
@@ -118,7 +118,7 @@ export const SPLocationPage: React.FC = () => {
                     <div className="mb-6 inline-flex p-4 bg-accent rounded-2xl shadow-glow">
                       <UserCheck className="h-10 w-10 text-accent-foreground" />
                     </div>
-                    <h4 className="font-serif text-2xl mb-3">Especialistas em SP</h4>
+                  <h4 className="font-serif text-2xl mb-3 text-white">Especialistas em SP</h4>
                     <p className="text-sm text-white/70 leading-relaxed font-medium">Atendimento 24h na Capital e em toda {locName} e adjacências.</p>
                     <div className="mt-8 pt-8 border-t border-white/10">
                       <p className="text-[10px] uppercase font-bold tracking-[0.3em] text-accent">Referência Jurídica</p>
@@ -135,9 +135,9 @@ export const SPLocationPage: React.FC = () => {
       <div className="bg-muted py-10 border-y border-primary/5">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-20 transition-all">
-            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3"><Zap className="h-6 w-6 text-accent drop-shadow-sm" /> Agilidade Processual</span>
-            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3"><Award className="h-6 w-6 text-accent drop-shadow-sm" /> Autoridade Jurídica</span>
-            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3"><HeartPulse className="h-6 w-6 text-accent drop-shadow-sm" /> Foco no Paciente</span>
+            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3 drop-shadow-sm"><Zap className="h-6 w-6 text-accent" /> Agilidade Processual</span>
+            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3 drop-shadow-sm"><Award className="h-6 w-6 text-accent" /> Autoridade Jurídica</span>
+            <span className="font-serif font-bold text-primary text-lg flex items-center gap-3 drop-shadow-sm"><HeartPulse className="h-6 w-6 text-accent" /> Foco no Paciente</span>
           </div>
         </div>
       </div>

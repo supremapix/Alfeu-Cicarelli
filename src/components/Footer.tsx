@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                 <span className="text-[8px] uppercase tracking-[0.3em] text-white/50 font-semibold mt-1">Sociedade de Advogados</span>
               </div>
             </div>
-            <p className="text-white/50 text-sm leading-relaxed">
+            <p className="text-white/70 text-sm leading-relaxed">
               Referência em Direito da Saúde na Grande São Paulo e Capital. Especialistas em garantir o acesso imediato de pacientes aos seus direitos contra abusos de planos de saúde.
             </p>
             <div className="flex space-x-4 pt-2">
@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
           {/* Specialities */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold border-b border-white/10 pb-2">Especialidades</h4>
-            <ul className="space-y-2 text-sm text-white/40">
+            <ul className="space-y-2 text-sm text-white/70">
               <li><Link to="/negativa-de-cirurgia" className="hover:text-accent transition-colors">Negativa de Cirurgia</Link></li>
               <li><Link to="/reajustes-abusivos" className="hover:text-accent transition-colors">Reajustes Abusivos</Link></li>
               <li><Link to="/medicamentos-alto-custo" className="hover:text-accent transition-colors">Medicamentos de Alto Custo</Link></li>
@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
                 <p className="text-[10px] uppercase font-bold text-accent mb-2">Principais Cidades</p>
                 <div className="flex flex-wrap gap-2">
                   {footerCities.map(city => (
-                    <Link key={city.slug} to={`/${city.slug}`} className="text-[11px] text-white/40 hover:text-white transition-colors">{city.name}</Link>
+                    <Link key={city.slug} to={`/${city.slug}`} className="text-[11px] text-white/60 hover:text-white transition-colors">{city.name}</Link>
                   ))}
                 </div>
               </div>
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
                 <p className="text-[10px] uppercase font-bold text-accent mb-2">Bairros Prioritários</p>
                 <div className="flex flex-wrap gap-2">
                   {footerNeighborhoods.map(nb => (
-                    <Link key={nb.slug} to={`/${nb.slug}`} className="text-[11px] text-white/40 hover:text-white transition-colors">{nb.name}</Link>
+                    <Link key={nb.slug} to={`/${nb.slug}`} className="text-[11px] text-white/60 hover:text-white transition-colors">{nb.name}</Link>
                   ))}
                 </div>
               </div>

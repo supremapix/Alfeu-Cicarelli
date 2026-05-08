@@ -36,9 +36,9 @@ export const HomePage: React.FC = () => {
           <img 
             src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2000&auto=format&fit=crop" 
             alt="Law Firm Background" 
-            className="w-full h-full object-cover object-center brightness-[0.3]"
+            className="w-full h-full object-cover object-center brightness-[0.5] grayscale-[20%]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent opacity-80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/70 to-transparent opacity-90" />
         </div>
 
         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -46,11 +46,15 @@ export const HomePage: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl"
+            className="max-w-4xl"
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 text-accent text-sm font-semibold mb-6 backdrop-blur-sm border border-accent/30">
-              Especialista em Direito da Saúde em São Paulo e Grande SP
-            </span>
+            <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-accent text-white text-xs font-black uppercase tracking-[0.3em] mb-10 shadow-2xl">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+              </span>
+              Especialista em Direito da Saúde • São Paulo
+            </div>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white leading-[1.05] mb-8 tracking-tighter">
               Sua saúde não pode <br />
               <span className="text-accent italic font-light">esperar a burocracia.</span>
